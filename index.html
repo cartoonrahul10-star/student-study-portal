@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.Tech Student Study Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🎓 Student Study Portal</h1>
+        <p>B.Tech 1st Year Students</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#subjects">Subjects</a>
+        <a href="#notes">Notes</a>
+        <a href="#assignments">Assignments</a>
+        <a href="#timetable">Timetable</a>
+    </nav>
+
+    <main>
+
+        <section class="welcome">
+            <h2>Welcome to Your Study Portal 👋</h2>
+            <p>All your study material in one place.</p>
+        </section>
+<div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search subject...">
+    <button onclick="searchSubjects()">Search</button>
+</div>
+        <section id="subjects">
+            <h2>📚 Subjects</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>📐 Mathematics</h3>
+                    <p>Notes, formulas and practice questions.</p>
+                    <button>View Notes</button>
+                </div>
+
+                <div class="card">
+                    <h3>⚡ Physics</h3>
+                    <p>Important concepts and practical notes.</p>
+                    <button>View Notes</button>
+                </div>
+
+                <div class="card">
+                    <h3>💻 Programming</h3>
+                    <p>C Programming and basic coding concepts.</p>
+                    <button>View Notes</button>
+                </div>
+
+                <div class="card">
+                    <h3>🔧 Engineering</h3>
+                    <p>Engineering subjects and study material.</p>
+                    <button>View Notes</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="notes">
+            <h2>📖 Notes</h2>
+            <div class="info-box">
+                <p>Subject-wise notes will be available here.</p>
+            </div>
+        </section>
+
+        <section id="assignments">
+            <h2>📝 Assignments</h2>
+            <div class="info-box">
+                <p>Check your pending and completed assignments.</p>
+            </div>
+        </section>
+
+        <section id="timetable">
+            <h2>📅 Timetable</h2>
+            <div class="info-box">
+                <p>Your weekly study timetable will appear here.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Student Study Portal | B.Tech Students</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
