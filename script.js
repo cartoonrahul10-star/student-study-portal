@@ -21,4 +21,17 @@ buttons.forEach(function(button) {
             card.style.display = "none";
         }
     });
+}function showNotes(subject) {
+    if (subject === "Mathematics") {
+        alert("📐 Mathematics Notes\n\nImportant formulas and concepts will be added here.");
+    }
+    else if (subject === "Physics") {
+        alert("⚡ Physics Notes\n\nImportant concepts and practical notes will be added here.");
+    }
+    else if (subject === "Programming") {
+        alert("💻 Programming Notes\n\nC Programming notes and examples will be added here.");
+    }
+    else if (subject === "Engineering") {
+        alert("🔧 Engineering Notes\n\nEngineering study material will be added here.");
+    }
 }
