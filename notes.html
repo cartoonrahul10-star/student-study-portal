@@ -3,48 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Study Notes</title>
+    <title>Engineering Mathematics Notes</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-    <h1>📚 Student Study Notes</h1>
-    <p>B.Tech 1st Year</p>
+    <h1>📚 Engineering Mathematics Notes</h1>
+    <p>RTU B.Tech 1st Semester</p>
 </header>
 
 <main>
 
-    <section class="welcome">
-        <h2>📖 Mathematics Notes</h2>
-        <p>Important formulas for B.Tech students.</p>
-    </section>
+<section class="welcome">
+    <h2>📐 Unit 1 – Matrix Algebra</h2>
+    <p>Important concepts, formulas and methods</p>
+</section>
 
-    <div class="info-box">
-        <h3>Important Formulas</h3>
+<div class="info-box">
 
-        <p><b>1. Quadratic Equation:</b></p>
-        <p>x = (-b ± √(b² - 4ac)) / 2a</p>
+<h3>1. Matrix</h3>
+<p>A matrix is a rectangular arrangement of numbers in rows and columns.</p>
 
-        <p><b>2. Derivative:</b></p>
-        <p>d(xⁿ)/dx = n xⁿ⁻¹</p>
+<p><b>Order of matrix:</b> m × n</p>
+<p>where m = number of rows and n = number of columns.</p>
 
-        <p><b>3. Integration:</b></p>
-        <p>∫xⁿ dx = xⁿ⁺¹ / (n+1) + C</p>
+<hr>
 
-        <p><b>4. Matrix:</b></p>
-        <p>|A| = Determinant of matrix A</p>
+<h3>2. Rank of a Matrix</h3>
+<p>The rank of a matrix is the maximum number of linearly independent rows or columns.</p>
 
-        <p><b>5. Trigonometry:</b></p>
-        <p>sin²θ + cos²θ = 1</p>
-    </div>
+<p><b>Important:</b></p>
+<p>Rank(A) = number of non-zero rows in echelon form.</p>
 
-    <br>
+<p>For a matrix of order m × n:</p>
+<p>Rank(A) ≤ min(m, n)</p>
 
-    <a href="index.html">
-        <button>⬅️ Back to Home</button>
-    </a>
+<hr>
+
+<h3>3. System of Linear Equations</h3>
+
+<p>General form:</p>
+<p>a₁x + b₁y + c₁z = d₁</p>
+<p>a₂x + b₂y + c₂z = d₂</p>
+<p>a₃x + b₃y + c₃z = d₃</p>
+
+<p>For AX = B:</p>
+
+<p><b>Consistent system:</b> Rank(A) = Rank([A|B])</p>
+
+<p><b>Unique solution:</b> Rank(A) = Rank([A|B]) = number of unknowns.</p>
+
+<p><b>Infinite solutions:</b> Rank(A) = Rank([A|B]) &lt; number of unknowns.</p>
+
+<p><b>No solution:</b> Rank(A) ≠ Rank([A|B]).</p>
+
+<hr>
+
+<h3>4. Eigenvalues</h3>
+
+<p>For a square matrix A, eigenvalues are obtained from:</p>
+
+<p><b>|A − λI| = 0</b></p>
+
+<p>where λ is an eigenvalue and I is the identity matrix.</p>
+
+<hr>
+
+<h3>5. Eigenvectors</h3>
+
+<p>For each eigenvalue λ, the corresponding eigenvector X is obtained from:</p>
+
+<p><b>(A − λI)X = 0</b></p>
+
+<hr>
+
+<h3>6. Important Properties of Eigenvalues</h3>
+
+<p>• Sum of eigenvalues = Trace of matrix</p>
+
+<p>• Product of eigenvalues = Determinant of matrix</p>
+
+<p>• Eigenvalues of identity matrix = 1</p>
+
+<p>• If A is triangular, its eigenvalues are its diagonal elements.</p>
+
+<hr>
+
+<h3>7. Cayley-Hamilton Theorem</h3>
+
+<p>Every square matrix satisfies its own characteristic equation.</p>
+
+<p>If the characteristic equation is:</p>
+
+<p><b>λⁿ + a₁λⁿ⁻¹ + a₂λⁿ⁻² + ... + aₙ = 0</b></p>
+
+<p>Then the matrix satisfies:</p>
+
+<p><b>Aⁿ + a₁Aⁿ⁻¹ + a₂Aⁿ⁻² + ... + aₙI = 0</b></p>
+
+<hr>
+
+<h3>8. Diagonalization of Matrix</h3>
+
+<p>A matrix A is diagonalizable if:</p>
+
+<p><b>A = PDP⁻¹</b></p>
+
+<p>where:</p>
+
+<p>• P = matrix of eigenvectors</p>
+<p>• D = diagonal matrix of eigenvalues</p>
+<p>• P⁻¹ = inverse of P</p>
+
+<hr>
+
+<h3>9. Characteristic Equation</h3>
+
+<p>The characteristic equation of matrix A is:</p>
+
+<p><b>|A − λI| = 0</b></p>
+
+<p>The roots of this equation are the eigenvalues of A.</p>
+
+<hr>
+
+<h3>⭐ Exam Important Formulas</h3>
+
+<p><b>1.</b> |A − λI| = 0</p>
+<p><b>2.</b> (A − λI)X = 0</p>
+<p><b>3.</b> Sum of eigenvalues = Trace(A)</p>
+<p><b>4.</b> Product of eigenvalues = |A|</p>
+<p><b>5.</b> A = PDP⁻¹</p>
+<p><b>6.</b> Rank(A) = number of non-zero rows in echelon form</p>
+<p><b>7.</b> Rank(A) = Rank([A|B]) → consistent system</p>
+
+</div>
+
+<br>
+
+<a href="index.html">
+    <button>⬅️ Back to Home</button>
+</a>
 
 </main>
 
