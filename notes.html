@@ -351,7 +351,7 @@ f(x) = a₀/2 + Σ [aₙ cos(nx) + bₙ sin(nx)]
 <p><b>6.</b> Odd function → a₀ = aₙ = 0</p>
 
 </div>
-    <section class="welcome">
+<section class="welcome">
     <h2>🧭 Unit 4 – Vector Calculus</h2>
     <p>Important concepts, formulas and theorems</p>
 </section>
@@ -376,8 +376,96 @@ f(x) = a₀/2 + Σ [aₙ cos(nx) + bₙ sin(nx)]
 
 <hr>
 
-<h3>3. Curl</h
-<section class="welcome">
+<h3>3. Curl</h3>
+<p>For F = Pi + Qj + Rk:</p>
+
+<p><b>∇×F = curl F</b></p>
+
+<p>It represents the rotational nature of a vector field.</p>
+
+<hr>
+
+<h3>4. Directional Derivative</h3>
+<p>The directional derivative of φ in the direction of unit vector â is:</p>
+
+<p><b>Dₐφ = ∇φ · â</b></p>
+
+<hr>
+
+<h3>5. Important Vector Identities</h3>
+
+<p><b>∇·(∇φ) = ∇²φ</b></p>
+
+<p><b>∇×(∇φ) = 0</b></p>
+
+<p><b>∇·(∇×F) = 0</b></p>
+
+<p>Here ∇²φ is called the Laplacian of φ.</p>
+
+<hr>
+
+<h3>6. Line Integral</h3>
+<p>The line integral of a vector field F along a curve C is:</p>
+
+<p><b>∫<sub>C</sub> F · dr</b></p>
+
+<hr>
+
+<h3>7. Surface Integral</h3>
+<p>The surface integral of a vector field F over a surface S is:</p>
+
+<p><b>∫<sub>S</sub> F · n̂ dS</b></p>
+
+<hr>
+
+<h3>8. Volume Integral</h3>
+<p>A volume integral over a region V is written as:</p>
+
+<p><b>∫<sub>V</sub> f dV</b></p>
+
+<hr>
+
+<h3>9. Gauss Divergence Theorem</h3>
+<p>The total outward flux through a closed surface is related to the volume integral of divergence:</p>
+
+<p><b>∫<sub>S</sub> F · n̂ dS = ∫<sub>V</sub> (∇·F) dV</b></p>
+
+<hr>
+
+<h3>10. Stokes' Theorem</h3>
+<p>Stokes' theorem relates a line integral around a closed curve to a surface integral of curl:</p>
+
+<p><b>∮<sub>C</sub> F · dr = ∫<sub>S</sub> (∇×F) · n̂ dS</b></p>
+
+<hr>
+
+<h3>11. Green's Theorem</h3>
+<p>For a positively oriented closed curve C enclosing a region R:</p>
+
+<p><b>∮<sub>C</sub> (P dx + Q dy)</b></p>
+
+<p><b>= ∬<sub>R</sub> (∂Q/∂x − ∂P/∂y) dA</b></p>
+
+<hr>
+
+<h3>⭐ Unit 4 Important Formulas</h3>
+
+<p><b>1.</b> ∇φ = iφₓ + jφᵧ + kφᵧ</p>
+
+<p><b>2.</b> ∇·F = Pₓ + Qᵧ + Rᵤ</p>
+
+<p><b>3.</b> Dₐφ = ∇φ · â</p>
+
+<p><b>4.</b> ∇×(∇φ) = 0</p>
+
+<p><b>5.</b> ∇·(∇×F) = 0</p>
+
+<p><b>6.</b> Gauss: ∫<sub>S</sub>F·n̂dS = ∫<sub>V</sub>∇·F dV</p>
+
+<p><b>7.</b> Stokes: ∮<sub>C</sub>F·dr = ∫<sub>S</sub>(∇×F)·n̂dS</p>
+
+</div>
+    <section class="welcome">
     <h2>📘 Unit 5 – Ordinary Differential Equations</h2>
     <p>Important concepts, formulas and methods</p>
 </section>
@@ -421,8 +509,102 @@ f(x) = a₀/2 + Σ [aₙ cos(nx) + bₙ sin(nx)]
 
 <p>Integrating Factor (I.F.):</p>
 
-<p><b>I.F. =
-<br>
+<p><b>I.F. = e<sup>∫P dx</sup></b></p>
+
+<p>Solution:</p>
+
+<p><b>y × I.F. = ∫(Q × I.F.)dx + C</b></p>
+
+<hr>
+
+<h3>5. Bernoulli's Equation</h3>
+
+<p>Standard form:</p>
+
+<p><b>dy/dx + Py = Qy<sup>n</sup></b></p>
+
+<p>Put:</p>
+
+<p><b>v = y<sup>1−n</sup></b></p>
+
+<p>After substitution, the equation becomes a linear differential equation in v.</p>
+
+<hr>
+
+<h3>6. Exact Differential Equation</h3>
+
+<p>For:</p>
+
+<p><b>M dx + N dy = 0</b></p>
+
+<p>The equation is exact if:</p>
+
+<p><b>∂M/∂y = ∂N/∂x</b></p>
+
+<hr>
+
+<h3>7. First Order Nonlinear Equations</h3>
+
+<p>Nonlinear first-order differential equations may be solved using suitable substitutions or standard methods depending on their form.</p>
+
+<hr>
+
+<h3>8. Higher Order Linear Differential Equation</h3>
+
+<p>A general linear differential equation is:</p>
+
+<p><b>aₙ dⁿy/dxⁿ + ... + a₁dy/dx + a₀y = X</b></p>
+
+<p>It can be represented using the differential operator D:</p>
+
+<p><b>F(D)y = X</b></p>
+
+<hr>
+
+<h3>9. Complementary Function (C.F.)</h3>
+
+<p>For the homogeneous equation:</p>
+
+<p><b>F(D)y = 0</b></p>
+
+<p>The solution obtained from the auxiliary equation is called the complementary function.</p>
+
+<hr>
+
+<h3>10. Particular Integral (P.I.)</h3>
+
+<p>For:</p>
+
+<p><b>F(D)y = X</b></p>
+
+<p>The particular solution corresponding to X is called the particular integral.</p>
+
+<p><b>Complete solution:</b></p>
+
+<p><b>y = C.F. + P.I.</b></p>
+
+<hr>
+
+<h3>⭐ Unit 5 Important Formulas</h3>
+
+<p><b>1.</b> dy/dx = f(x,y)</p>
+
+<p><b>2.</b> I.F. = e<sup>∫P dx</sup></p>
+
+<p><b>3.</b> y × I.F. = ∫(Q × I.F.)dx + C</p>
+
+<p><b>4.</b> Bernoulli: dy/dx + Py = Qy<sup>n</sup></p>
+
+<p><b>5.</b> Exact equation: Mdx + Ndy = 0</p>
+
+<p><b>6.</b> Exact condition: ∂M/∂y = ∂N/∂x</p>
+
+<p><b>7.</b> F(D)y = X</p>
+
+<p><b>8.</b> Complete solution = C.F. + P.I.</p>
+
+</div>
+    
 
 <a href="index.html">
     <button>⬅️ Back to Home</button>
