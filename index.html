@@ -33,11 +33,38 @@
 <div class="search-box">
     <input type="text" id="searchInput" placeholder="Search subject...">
     <button onclick="searchSubjects()">Search</button>
-</div>
-        <section id="subjects">
-            <h2>📚 Subjects</h2>
+</div><section id="notes">
+    <h2>📖 Subject-wise Notes</h2>
 
-            <div class="cards">
+    <div class="notes-container">
+
+        <div class="note-card">
+            <h3>📐 Mathematics</h3>
+            <p>Important formulas and basic concepts.</p>
+            <button onclick="showNotes('Mathematics')">Open Notes</button>
+        </div>
+
+        <div class="note-card">
+            <h3>⚡ Physics</h3>
+            <p>Important concepts and practical notes.</p>
+            <button onclick="showNotes('Physics')">Open Notes</button>
+        </div>
+
+        <div class="note-card">
+            <h3>💻 Programming</h3>
+            <p>C programming and coding notes.</p>
+            <button onclick="showNotes('Programming')">Open Notes</button>
+        </div>
+
+        <div class="note-card">
+            <h3>🔧 Engineering</h3>
+            <p>Engineering subjects study material.</p>
+            <button onclick="showNotes('Engineering')">Open Notes</button>
+        </div>
+
+    </div>
+</section>
+        
 
                 <div class="card">
                     <h3>📐 Mathematics</h3>
