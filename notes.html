@@ -140,6 +140,243 @@
 <p><b>7.</b> Rank(A) = Rank([A|B]) → consistent system</p>
 
 </div>
+    <section class="welcome">
+    <h2>📘 Unit 2 – Multivariable Calculus</h2>
+    <p>Important concepts and formulas</p>
+</section>
+
+<div class="info-box">
+
+<h3>1. Function of Two Variables</h3>
+<p>A function of two variables is written as:</p>
+<p><b>z = f(x, y)</b></p>
+
+<hr>
+
+<h3>2. Limit and Continuity</h3>
+<p>The limit of f(x,y) as (x,y) approaches (a,b) is written as:</p>
+<p><b>lim f(x,y) = L</b></p>
+<p>For continuity at (a,b):</p>
+<p><b>lim f(x,y) = f(a,b)</b></p>
+
+<hr>
+
+<h3>3. Partial Derivatives</h3>
+<p>If z = f(x,y), then:</p>
+<p><b>∂z/∂x</b> → differentiate with respect to x, keeping y constant.</p>
+<p><b>∂z/∂y</b> → differentiate with respect to y, keeping x constant.</p>
+
+<hr>
+
+<h3>4. Euler's Theorem</h3>
+<p>If z is a homogeneous function of degree n:</p>
+<p><b>x(∂z/∂x) + y(∂z/∂y) = nz</b></p>
+
+<hr>
+
+<h3>5. Chain Rule</h3>
+<p>If z = f(x,y), where x and y depend on t:</p>
+<p><b>dz/dt = (∂z/∂x)(dx/dt) + (∂z/∂y)(dy/dt)</b></p>
+
+<hr>
+
+<h3>6. Total Derivative</h3>
+<p>For z = f(x,y):</p>
+<p><b>dz = (∂z/∂x)dx + (∂z/∂y)dy</b></p>
+
+<hr>
+
+<h3>7. Jacobian</h3>
+<p>The Jacobian of u,v with respect to x,y is:</p>
+<p><b>∂(u,v)/∂(x,y)</b></p>
+
+<p>= | ∂u/∂x &nbsp; ∂u/∂y |</p>
+<p>&nbsp;&nbsp;| ∂v/∂x &nbsp; ∂v/∂y |</p>
+
+<hr>
+
+<h3>8. Taylor's Theorem</h3>
+<p>For a function of two variables:</p>
+<p><b>f(x+h,y+k)</b> can be expanded using partial derivatives of f.</p>
+
+<p>Important terms include first, second and higher-order partial derivatives.</p>
+
+<hr>
+
+<h3>9. Maxima and Minima</h3>
+<p>For f(x,y), first find:</p>
+<p><b>fₓ = 0 and fᵧ = 0</b></p>
+
+<p>Let:</p>
+<p><b>A = fₓₓ, B = fₓᵧ, C = fᵧᵧ</b></p>
+
+<p>Then:</p>
+<p><b>D = AC − B²</b></p>
+
+<p>If D &gt; 0 and A &gt; 0 → Local minimum.</p>
+<p>If D &gt; 0 and A &lt; 0 → Local maximum.</p>
+<p>If D &lt; 0 → Saddle point.</p>
+
+<hr>
+
+<h3>10. Lagrange's Method</h3>
+<p>For finding maximum or minimum subject to a constraint:</p>
+<p><b>∇f = λ∇g</b></p>
+
+<p>where λ is the Lagrange multiplier.</p>
+
+<hr>
+
+<h3>11. Double Integral</h3>
+<p>Double integral is written as:</p>
+<p><b>∫∫ f(x,y) dx dy</b></p>
+
+<p>It is commonly used to calculate area and volume-related quantities.</p>
+
+<hr>
+
+<h3>12. Triple Integral</h3>
+<p>Triple integral is written as:</p>
+<p><b>∫∫∫ f(x,y,z) dx dy dz</b></p>
+
+<p>It is commonly used for volume and three-dimensional quantities.</p>
+
+<hr>
+
+<h3>⭐ Unit 2 Important Formulas</h3>
+<p><b>1.</b> z = f(x,y)</p>
+<p><b>2.</b> dz = zₓdx + zᵧdy</p>
+<p><b>3.</b> xzₓ + yzᵧ = nz</p>
+<p><b>4.</b> dz/dt = zₓ(dx/dt) + zᵧ(dy/dt)</p>
+<p><b>5.</b> D = AC − B²</p>
+<p><b>6.</b> ∇f = λ∇g</p>
+
+</div>
+    <section class="welcome">
+    <h2>📊 Unit 3 – Fourier Series</h2>
+    <p>Important concepts, formulas and exam points</p>
+</section>
+
+<div class="info-box">
+
+<h3>1. Fourier Series</h3>
+<p>A periodic function can be represented as an infinite series of sine and cosine functions.</p>
+
+<p><b>General Fourier Series:</b></p>
+<p>
+f(x) = a₀/2 + Σ [aₙ cos(nx) + bₙ sin(nx)]
+</p>
+
+<hr>
+
+<h3>2. Fourier Coefficients</h3>
+
+<p><b>Constant term:</b></p>
+<p>a₀ = (1/π) ∫₋π^π f(x) dx</p>
+
+<p><b>Cosine coefficient:</b></p>
+<p>aₙ = (1/π) ∫₋π^π f(x) cos(nx) dx</p>
+
+<p><b>Sine coefficient:</b></p>
+<p>bₙ = (1/π) ∫₋π^π f(x) sin(nx) dx</p>
+
+<hr>
+
+<h3>3. Convergence of Fourier Series</h3>
+<p>For a suitable periodic function, the Fourier series converges to the value of the function at points of continuity.</p>
+
+<p>At a discontinuity, it converges to the average of the left-hand and right-hand limits:</p>
+
+<p><b>[f(x⁺) + f(x⁻)] / 2</b></p>
+
+<hr>
+
+<h3>4. Even Function</h3>
+<p>A function is even if:</p>
+
+<p><b>f(−x) = f(x)</b></p>
+
+<p>For an even function:</p>
+<p><b>bₙ = 0</b></p>
+
+<p>Therefore, the Fourier series contains only cosine terms.</p>
+
+<hr>
+
+<h3>5. Odd Function</h3>
+<p>A function is odd if:</p>
+
+<p><b>f(−x) = −f(x)</b></p>
+
+<p>For an odd function:</p>
+<p><b>a₀ = 0 and aₙ = 0</b></p>
+
+<p>Therefore, the Fourier series contains only sine terms.</p>
+
+<hr>
+
+<h3>6. Half-Range Fourier Series</h3>
+<p>When a function is defined only over half of its usual interval, we can represent it using a half-range Fourier series.</p>
+
+<p><b>Half-range sine series:</b></p>
+<p>bₙ = (2/L) ∫₀ᴸ f(x) sin(nπx/L) dx</p>
+
+<p><b>Half-range cosine series:</b></p>
+<p>aₙ = (2/L) ∫₀ᴸ f(x) cos(nπx/L) dx</p>
+
+<hr>
+
+<h3>7. Important Points</h3>
+
+<p>• Periodic function repeats itself after a fixed interval.</p>
+<p>• Even function gives cosine series.</p>
+<p>• Odd function gives sine series.</p>
+<p>• Half-range expansion can be sine or cosine type.</p>
+<p>• Fourier coefficients are calculated using integration.</p>
+
+<hr>
+
+<h3>⭐ Unit 3 Important Formulas</h3>
+
+<p><b>1.</b> f(x) = a₀/2 + Σ[aₙcos(nx) + bₙsin(nx)]</p>
+
+<p><b>2.</b> a₀ = (1/π)∫₋π^π f(x)dx</p>
+
+<p><b>3.</b> aₙ = (1/π)∫₋π^π f(x)cos(nx)dx</p>
+
+<p><b>4.</b> bₙ = (1/π)∫₋π^π f(x)sin(nx)dx</p>
+
+<p><b>5.</b> Even function → bₙ = 0</p>
+
+<p><b>6.</b> Odd function → a₀ = aₙ = 0</p>
+
+</div>
+    <section class="welcome">
+    <h2>🧭 Unit 4 – Vector Calculus</h2>
+    <p>Important concepts, formulas and theorems</p>
+</section>
+
+<div class="info-box">
+
+<h3>1. Gradient</h3>
+<p>For a scalar function φ(x,y,z), the gradient is:</p>
+
+<p><b>∇φ = i(∂φ/∂x) + j(∂φ/∂y) + k(∂φ/∂z)</b></p>
+
+<p>The gradient points in the direction of maximum increase of the scalar function.</p>
+
+<hr>
+
+<h3>2. Divergence</h3>
+<p>For a vector field F = Pi + Qj + Rk:</p>
+
+<p><b>∇·F = ∂P/∂x + ∂Q/∂y + ∂R/∂z</b></p>
+
+<p>If ∇·F = 0, the vector field is called solenoidal.</p>
+
+<hr>
+
+<h3>3. Curl</h
 
 <br>
 
